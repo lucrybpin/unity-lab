@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CoinGameController : MonoBehaviour
+public class CoinGamePresenter : MonoBehaviour
 {
     [SerializeField] CoinGameModel _model;  // Model is just a data container, all the variables
                                             // that we need in our class could be in the model.
@@ -20,7 +20,7 @@ public class CoinGameController : MonoBehaviour
     public void Work()
     {
         // In this case our business logic is simply 
-        // to add coins, but notice that our Controller
+        // to add coins, but notice that our Presenter
         // is agnostic to data and view, he is just worried
         // in actions, about solving problems.
 

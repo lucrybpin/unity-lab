@@ -575,7 +575,7 @@ GameObject:
   - component: {fileID: 1182227271}
   - component: {fileID: 1182227273}
   m_Layer: 0
-  m_Name: Coin Controller
+  m_Name: Coin Presenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -636,7 +636,7 @@ GameObject:
   - component: {fileID: 1352873838}
   - component: {fileID: 1352873837}
   m_Layer: 0
-  m_Name: CoinGame (before mvc)
+  m_Name: CoinGame (before mvp)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WorkButton: {fileID: 1745666851}
   CoinsText: {fileID: 785188408}
-  Coins: 0
+  coins: 0
 --- !u!4 &1352873838
 Transform:
   m_ObjectHideFlags: 0

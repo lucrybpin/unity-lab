@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CoinGameBeforeYouLearnMVC : MonoBehaviour
+public class CoinGameBeforeYouLearnMVP : MonoBehaviour
 {
     public Button WorkButton;
     public TMP_Text CoinsText;
