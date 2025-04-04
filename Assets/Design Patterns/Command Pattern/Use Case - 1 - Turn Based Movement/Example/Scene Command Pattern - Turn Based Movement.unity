@@ -2898,7 +2898,7 @@ GameObject:
   - component: {fileID: 1001386982}
   - component: {fileID: 1001386981}
   m_Layer: 0
-  m_Name: Turn Based Movement Processor
+  m_Name: Command Pattern Example
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
