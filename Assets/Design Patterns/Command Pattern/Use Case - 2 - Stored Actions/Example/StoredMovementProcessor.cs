@@ -15,6 +15,8 @@ public class StoredMovementProcessor : MonoBehaviour
     [SerializeField] Button _moveRight;
     [SerializeField] Button _execute;
 
+    // The magic is here, the list of commands. 
+    // We are storing the history in actions and we can replay it later
     List<ITurnCommand> _commands;
 
     void Start()
@@ -48,6 +50,10 @@ public class StoredMovementProcessor : MonoBehaviour
         _execute.onClick.AddListener(async () => {
             if(_commands.Count == 0)
                 return;
+
+            // Here we are simply reexecuting command by command
+            // exaclty how they were stored, simple but really fun
+            // mechanic!
             foreach(ITurnCommand command in _commands)
             {
                 Destroy(_uiParent.GetChild(0).gameObject);

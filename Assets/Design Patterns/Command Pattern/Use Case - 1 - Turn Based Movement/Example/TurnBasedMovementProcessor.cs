@@ -6,6 +6,9 @@ public class TurnBasedMovementProcessor : MonoBehaviour
     [SerializeField] Transform _character;
     [SerializeField] Transform _uiParent;
     [SerializeField] UITurnCommandLine _uiLineCommandPrefab;
+    
+    // The list of commands is important!
+    // we need them to reverse one by one
     List<ITurnCommand> _commands;
 
     void Start()
@@ -15,6 +18,7 @@ public class TurnBasedMovementProcessor : MonoBehaviour
 
     void Update()
     {
+        // Here we are simply listening for the playr input, creating the corresponding command and executing it
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             ITurnCommand moveUp = new MoveUp(_character);
@@ -55,6 +59,8 @@ public class TurnBasedMovementProcessor : MonoBehaviour
         if(_commands.Count == 0)
             return;
 
+        // To undo we simply call the Undo method of the command
+        // the command knows how to reverse itself
         ITurnCommand lastCommand = _commands[_commands.Count-1];
         lastCommand.Undo();
         _commands.Remove(lastCommand);
