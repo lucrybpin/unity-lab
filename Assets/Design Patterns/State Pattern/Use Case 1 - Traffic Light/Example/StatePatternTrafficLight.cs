@@ -23,7 +23,5 @@ public class StatePatternTrafficLight : MonoBehaviour
             _currentState = _newState;
         }
     }
-
-
 }
 

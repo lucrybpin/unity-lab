@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class StatePatternUseCase2 : MonoBehaviour
+public class DoorSimpleStateMachine : MonoBehaviour
 {
     [SerializeField] CharacterController _characterController;
     [SerializeField] float _speed;
