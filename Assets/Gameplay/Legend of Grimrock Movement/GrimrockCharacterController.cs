@@ -18,12 +18,12 @@ public class GrimrockCharacterController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             _isMoving = true;
-            transform.DOLocalMove(transform.position + 4 * transform.forward, .57f).OnComplete(() => _isMoving = false);
+            transform.DOLocalMove(transform.position + 2 * transform.forward, .57f).OnComplete(() => _isMoving = false);
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
             _isMoving = true;
-            transform.DOLocalMove(transform.position + -4 * transform.forward, .57f).OnComplete(() => _isMoving = false);
+            transform.DOLocalMove(transform.position + -2 * transform.forward, .57f).OnComplete(() => _isMoving = false);
         }
         if (Input.GetKeyDown(KeyCode.D))
         {

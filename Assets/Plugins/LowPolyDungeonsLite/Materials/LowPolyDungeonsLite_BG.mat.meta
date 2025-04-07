@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64ba6c72e3ef1e549a99ffb902487f11
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 177937
+  packageName: Low Poly Dungeons Lite
+  packageVersion: 1.11
+  assetPath: Assets/LowPolyDungeonsLite/Materials/LowPolyDungeonsLite_BG.mat
+  uploadId: 692358
