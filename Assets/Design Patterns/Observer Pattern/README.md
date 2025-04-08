@@ -1,4 +1,4 @@
-# 🎮 Design Patterns - Observer
+# 👁️‍🗨️ Design Patterns - Observer
 
 ## 🧠 About the Project
 
