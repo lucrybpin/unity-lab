@@ -1,4 +1,4 @@
-# 🎮 Command Pattern - Gameplay Examples
+# 🎮 Design Patterns - Command
 
 ## 🧠 About the Project
 
