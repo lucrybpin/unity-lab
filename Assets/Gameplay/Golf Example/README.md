@@ -2,6 +2,8 @@
 
 ---
 
+![Golf Preview](Images/golf_preview.png)
+
 ---
 
 ## 🎮 About the Project
