@@ -24,7 +24,6 @@ public class Login : MonoBehaviour
 
     void LoginClick()
     {
-        Debug.Log($">>>> Login Click");
         OnLoginClick?.Invoke(); // Broadcasting
     }
 }
