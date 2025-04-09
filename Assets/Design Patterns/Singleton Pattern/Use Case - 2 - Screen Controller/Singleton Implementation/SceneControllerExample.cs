@@ -16,5 +16,4 @@ public class SceneControllerExample : Singleton<SceneControllerExample>
     {
         base.Awake();
     }
-
 }
