@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba1716e4244f3ca40ab0dd428612bfb5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 176087
+  packageName: Toony Tiny City Demo
+  packageVersion: 1.0
+  assetPath: Assets/Tiny_Toony_City_Demo/PolygonBlacksmith/TT_Citizens_demo/animation/samplers/male_idle.controller
+  uploadId: 384283
