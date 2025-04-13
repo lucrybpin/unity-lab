@@ -1,4 +1,4 @@
-# ⛳️ Gameplay - Top Down Point and Click
+# 🖱️ Gameplay - Top Down Point and Click
 
 ---
 
