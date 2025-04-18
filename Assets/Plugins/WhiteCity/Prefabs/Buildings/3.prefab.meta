@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b8800faccef09f047b9aab74ce0d163d
+timeCreated: 1479886177
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76766
+  packageName: White City
+  packageVersion: 1.1
+  assetPath: Assets/WhiteCity/Prefabs/Buildings/3.prefab
+  uploadId: 614564

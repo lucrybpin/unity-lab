@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e25753f11202b824d8204720b0b26e23
+timeCreated: 1481615769
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76766
+  packageName: White City
+  packageVersion: 1.1
+  assetPath: Assets/WhiteCity/Models/Buildings/Materials/orange.mat
+  uploadId: 614564

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7be733fca5977484eab72a8eca73b1b2
+timeCreated: 1480542281
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52496
+  packageName: Police Car & Helicopter
+  packageVersion: 1.1
+  assetPath: Assets/Police Car & Helicopter/Prefabs/Interceptor.prefab
+  uploadId: 148983

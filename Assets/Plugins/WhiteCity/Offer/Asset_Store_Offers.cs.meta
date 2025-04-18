@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 41fa34e28ade78447ab116a11e6901e2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76766
+  packageName: White City
+  packageVersion: 1.1
+  assetPath: Assets/WhiteCity/Offer/Asset_Store_Offers.cs
+  uploadId: 614564

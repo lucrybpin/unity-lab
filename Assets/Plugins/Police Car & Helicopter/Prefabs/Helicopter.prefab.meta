@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: ebfa405660e25c549bb7039f0b44f8ff
+labels:
+- Helicopter
+- Aircraft
+- Vehicle
+- Police
+- Interceptor
+- Air
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52496
+  packageName: Police Car & Helicopter
+  packageVersion: 1.1
+  assetPath: Assets/Police Car & Helicopter/Prefabs/Helicopter.prefab
+  uploadId: 148983
