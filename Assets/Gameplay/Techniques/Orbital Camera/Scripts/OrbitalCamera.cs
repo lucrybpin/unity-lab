@@ -6,6 +6,8 @@ public class OrbitalCamera : MonoBehaviour
     [field: SerializeField] public float Distance       { get; private set; } = 3f;
     [field: SerializeField] public float Sensitivity    { get; private set; } = 140f;
     [field: SerializeField] public Vector2 CameraAngles { get; private set; }
+    [field: SerializeField] public bool InvertX         { get; private set; }
+    [field: SerializeField] public bool InvertY         { get; private set; }
     public Vector2 CameraInput                          { get; private set; }
 
     void Awake()
@@ -18,9 +20,15 @@ public class OrbitalCamera : MonoBehaviour
         // Read Mouse Input
         CameraInput = new Vector2(Input.GetAxis("Mouse Y"), -Input.GetAxis("Mouse X"));
 
+        if(InvertX)
+            CameraInput = new Vector2(CameraInput.x, -CameraInput.y);
+        if(InvertY)
+            CameraInput = new Vector2(-CameraInput.x, CameraInput.y);
+        
+
         // Convert Input to 3D Angles
         CameraAngles += CameraInput * Sensitivity * Time.deltaTime;
-        CameraAngles = new Vector2(Mathf.Clamp(CameraAngles.x, -30f, 90f), CameraAngles.y);
+        CameraAngles = new Vector2(Mathf.Clamp(CameraAngles.x, -7f, 90f), CameraAngles.y);
 
         // Convert 3D Angles to Game Angles 
         Quaternion cameraAnglesInQuaternion = Quaternion.Euler(CameraAngles);
