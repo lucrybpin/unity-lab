@@ -28,7 +28,7 @@ Feel free to **explore**, **take your time** learning, and **have fun**!
 
 ### 🧩 Gameplay Programming Examples
 
-Here you'll find fun and simplified examples of **Gameplay Mechanics** that you can study and adapt for your own games. Go to [Gameplay](./Assets/Design%20Patterns/) folder.
+Here you'll find fun and simplified examples of **Gameplay Mechanics** that you can study and adapt for your own games. Go to [Gameplay](./Assets/Gameplay/) folder.
 
 ![Command Pattern Preview 1](Assets/PreviewImages/gameplay_programming_preview.png)
 
