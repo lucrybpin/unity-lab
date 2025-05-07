@@ -82,8 +82,8 @@ public class LineOfSightSceneController : MonoBehaviour
         return false;
     }
 
-    // After suffering and avoiding do simply copy Brasenham Algorithm
-    // I've still persistend in the line function
+    // After suffering and avoiding to simply copy Bresenham Algorithm
+    // I've still persisted in the line function
     // But Now I've realized that the slope (deltaY/deltaX)
     // can be fractioned, and it tells me how much I need to move in X and Y for each microstep. 
     // And now, instead of iterating over the indexes

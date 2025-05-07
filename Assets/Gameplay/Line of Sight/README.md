@@ -4,6 +4,11 @@
 
 ![Line of Sight](Images/line_of_sight_preview.png)
 
+![Line of Sight](Images/line_of_sight3D_preview.png)
+
+
+
+
 ---
 
 ## 🎮 About the Project

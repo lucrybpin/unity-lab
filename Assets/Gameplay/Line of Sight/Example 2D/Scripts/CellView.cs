@@ -46,4 +46,7 @@ public class CellView : MonoBehaviour
         Image.color = Color.white;
     }
 
+
+
+
 }
