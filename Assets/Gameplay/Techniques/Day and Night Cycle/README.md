@@ -2,7 +2,7 @@
 
 ---
 
-![2.5D Preview](Images/day_and_night_preview.png)
+![Day and Night Preview](Images/day_and_night_preview.png)
 
 ---
 
