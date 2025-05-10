@@ -8221,7 +8221,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 1, g: 0.73792756, b: 0.4085976, a: 1}
+  m_Color: {r: 1, g: 0.9969395, b: 0.9930935, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -8284,7 +8284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.9156055, y: 0, z: 0, w: 0.40207794}
+  m_LocalRotation: {x: 0.71018547, y: 0, z: 0, w: 0.7040147}
   m_LocalPosition: {x: 3.9939365, y: 14.728841, z: 7.182449}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
@@ -8326,8 +8326,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7265a74e5aad00c41a1666180a8ce61d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Hour>k__BackingField: 14.838914
-  <DaySpeed>k__BackingField: 1
+  <Hour>k__BackingField: 12.033334
+  <DaySpeed>k__BackingField: 0.1
   <Sun>k__BackingField: {fileID: 705507994}
   <SkyColor>k__BackingField:
     serializedVersion: 2
