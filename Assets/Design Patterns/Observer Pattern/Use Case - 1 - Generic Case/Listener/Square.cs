@@ -6,8 +6,13 @@ public class Square : MonoBehaviour, IObserver
 
     void Awake()
     {
-        IBroadcaster broadcaster = GameObject.FindFirstObjectByType<Sphere>() as IBroadcaster;
-        broadcaster.AddObserver(this);
+        _broadcaster = GameObject.FindFirstObjectByType<Sphere>() as IBroadcaster;
+        _broadcaster.AddObserver(this);
+    }
+
+    void OnDestroy()
+    {
+        _broadcaster.RemoveObserver(this);
     }
 
     public void Execute()

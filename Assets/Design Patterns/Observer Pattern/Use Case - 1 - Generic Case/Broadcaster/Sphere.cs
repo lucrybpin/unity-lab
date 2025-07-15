@@ -17,6 +17,14 @@ public class Sphere : MonoBehaviour, IBroadcaster
         Observers.Add(observer);
     }
 
+    // If onde of the observers is removed from memory when we try to broadcast an error will occur
+    // because it is trying to call the method from a dead reference. Always Remove OnDestroy or when it
+    // it is being removed from memory
+    public void RemoveObserver(IObserver observer)
+    {
+        Observers.Remove(observer);
+    }
+
     public void Broadcast()
     {
         foreach (IObserver observer in Observers)

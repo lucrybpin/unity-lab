@@ -22,6 +22,11 @@ public class Login : MonoBehaviour
         _loginButton.onClick.AddListener(LoginClick);
     }
 
+    void OnDestroy()
+    {
+        _loginButton.onClick.RemoveListener(LoginClick);
+    }
+
     void LoginClick()
     {
         OnLoginClick?.Invoke(); // Broadcasting

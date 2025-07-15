@@ -9,4 +9,9 @@ public class GreenTrigger : MonoBehaviour
     {
         OnAnythingEnter?.Invoke(); // Broadcast
     }
+
+    void OnDestroy()
+    {
+        OnAnythingEnter.RemoveAllListeners();
+    }
 }

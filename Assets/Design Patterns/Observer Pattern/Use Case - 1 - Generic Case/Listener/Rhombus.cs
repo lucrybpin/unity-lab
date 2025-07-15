@@ -7,8 +7,13 @@ public class Rhombus : MonoBehaviour, IObserver
     void Awake()
     {
         // This violates Dependency Injection, but for now worry about understanding what we are trying to achieve
-        IBroadcaster broadcaster = GameObject.FindFirstObjectByType<Sphere>() as IBroadcaster;
-        broadcaster.AddObserver(this);
+        _broadcaster = GameObject.FindFirstObjectByType<Sphere>() as IBroadcaster;
+        _broadcaster.AddObserver(this);
+    }
+
+    void OnDestroy()
+    {
+        _broadcaster.RemoveObserver(this);
     }
 
     public void Execute()
